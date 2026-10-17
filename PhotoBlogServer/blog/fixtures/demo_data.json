@@ -1,0 +1,92 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "!",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "assessment_demo",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-10-17T00:00:00Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+      "title": "\uc774\ubbf8\uc9c0 \ube14\ub85c\uadf8 \ud14c\uc2a4\ud2b8",
+      "text": "\uc774\ubbf8\uc9c0 \uc5c5\ub85c\ub4dc \ud14c\uc2a4\ud2b8",
+      "created_date": "2026-09-23T07:27:42Z",
+      "published_date": "2026-09-23T07:27:54Z",
+      "image": "images/2026/09/23/images.jpeg",
+      "author": 1
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+      "title": "REST API \ud14c\uc2a4\ud2b8",
+      "text": "REST API \ud14c\uc2a4\ud2b8 \uac8c\uc2dc\uae00",
+      "created_date": "2026-09-23T07:33:00Z",
+      "published_date": "2026-09-23T07:33:00Z",
+      "image": "images/2026/09/23/images_1.jpeg",
+      "author": 1
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+      "title": "\uacf5\ud1b5\ud3c9\uac0001 API \uc5c5\ub85c\ub4dc \ud14c\uc2a4\ud2b8",
+      "text": "REST API\uc758 POST\ub85c \uc0ac\uc9c4\uc744 \uc5c5\ub85c\ub4dc\ud55c \uac8c\uc2dc\ubb3c\uc785\ub2c8\ub2e4.",
+      "created_date": "2026-10-14T07:19:00Z",
+      "published_date": "2026-10-14T07:19:00Z",
+      "image": "images/2026/10/14/test_1.jpeg",
+      "author": 1
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 5,
+    "fields": {
+      "title": "\uacf5\ud1b5\ud3c9\uac0001 Android UI \uc5c5\ub85c\ub4dc \ud14c\uc2a4\ud2b8",
+      "text": "Android \uc571\uc5d0\uc11c \uc81c\ubaa9\uacfc \ub0b4\uc6a9\uc744 \uc785\ub825\ud558\uace0 \uc0ac\uc9c4\uc744 \uc120\ud0dd\ud558\uc5ec \uc5c5\ub85c\ub4dc\ud55c \uac8c\uc2dc\ubb3c\uc785\ub2c8\ub2e4.",
+      "created_date": "2026-10-16T06:10:51Z",
+      "published_date": "2026-10-16T06:10:51Z",
+      "image": "images/2026/10/16/android_upload.jpg",
+      "author": 1
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 6,
+    "fields": {
+      "title": "14\ubc88 \ud3b8\uc758\uae30\ub2a5 \uba85\ud568 \ud14c\uc2a4\ud2b8",
+      "text": "\uc678\ubd80 \uc571\uc5d0\uc11c \uacf5\uc720\ubc1b\uc740 \uba85\ud568 \uc0ac\uc9c4\uc73c\ub85c \uac1c\uc778\uc815\ubcf4 \uac00\ub9ac\uae30\uc640 \uc0ac\uc9c4 \uc18d \uae00\uc790 \uac80\uc0c9\uc744 \ud655\uc778\ud569\ub2c8\ub2e4.",
+      "created_date": "2026-10-17T10:36:35Z",
+      "published_date": "2026-10-17T10:36:35Z",
+      "image": "images/2026/10/17/android_redacted.jpg",
+      "author": 1
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 7,
+    "fields": {
+      "title": "14\ubc88 \ud3b8\uc758\uae30\ub2a5 \uc6a9\ub7c9 \ucd5c\uc801\ud654 \ud14c\uc2a4\ud2b8",
+      "text": "\ud070 \uc0ac\uc9c4\uc744 \ubaa9\ud45c \uc6a9\ub7c9 \uc774\ud558\ub85c \uc904\uc5ec \uac8c\uc2dc\ud558\ub294 \uae30\ub2a5\uc744 \ud655\uc778\ud569\ub2c8\ub2e4.",
+      "created_date": "2026-10-17T10:48:55Z",
+      "published_date": "2026-10-17T10:48:55Z",
+      "image": "images/2026/10/17/android_optimized.jpg",
+      "author": 1
+    }
+  }
+]

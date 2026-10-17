@@ -1,0 +1,28 @@
+# Local environment, credentials, build output, and editor files
+.DS_Store
+__MACOSX/
+._*
+~$*
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.coverage
+.coverage.*
+.pytest_cache/
+db.sqlite3
+db.sqlite3-journal
+db.sqlite3-wal
+db.sqlite3-shm
+.gradle/
+.kotlin/
+.idea/
+build/
+local.properties
+*.iml
+*.jks
+*.keystore
+# Keep media, htmlcov, migrations, tests, request captures, and Gradle wrapper.

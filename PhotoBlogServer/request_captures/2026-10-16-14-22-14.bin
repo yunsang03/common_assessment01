@@ -1,0 +1,8 @@
+GET /api_root/Post/ HTTP/1.1
+Authorization: Token REDACTED_FOR_PUBLIC_SUBMISSION
+Accept: application/json
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 17; sdk_gphone64_arm64 Build/CE2A.260420.019)
+Host: 10.0.2.2:8000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
